@@ -96,8 +96,8 @@
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}\vspace{0pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
 
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -112,35 +112,17 @@
 % \end{tabular*}
 
 \begin{center}
-    \textbf{\Huge \scshape Taylor Norton-Brown} \\ \vspace{1pt}
-    \small +64 20 4167 2564 $|$ 
-    \href{mailto:taylor.nb@hotmail.com}{\underline{Taylor.nb@hotmail.com}} $|$ 
-    \href{https://linkedin.com/in/tgnb}{\underline{linkedin}} $|$
+    \textbf{\Huge \scshape Taylor Norton} \\ \vspace{1pt}
+    \small (+64) 20 4167 2564 $|$ \href{mailto:taylor.nb@hotmail.com}{\underline{taylor.nb@hotmail.com}} $|$ 
+    \href{https://linkedin.com/in/tgnb}{\underline{linkedin.com/in/tgnb}} $|$
     \href{https://github.com/lil-snorts}{\underline{github.com}}
 \end{center}
 
 
-%-----------EDUCATION-----------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Victoria University}{Wellington, NZ}
-      {Bachelor of science Majoring in Computer Science, specialising in AI and Machine Learning}{2016 -- 2024}
-  \resumeSubHeadingListEnd
 
 %-----------EXPERIENCE-----------
 \section{Experience}
-  \resumeSubHeadingListStart      
-% -----------Multiple Positions Heading-----------
-%    \resumeSubSubheading
-%     {Software Engineer I}{Oct 2014 - Sep 2016}
-%     \resumeItemListStart
-%        \resumeItem{Apache Beam}
-%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
-%     \resumeItemListEnd
-%    \resumeSubHeadingListEnd
-%-------------------------------------------
-
+  \resumeSubHeadingListStart
     \resumeSubheading
       {ANZ - Australia and New Zealand Banking Group Limited}{Mar. 2023 -- Present}
       {Software Engineer}{Wellington, NZ}
@@ -154,27 +136,71 @@
         \resumeItem{Deployed docker images to OpenShift}
         \resumeItem{Manage deployments using Jenkins}
     \resumeItemListEnd
-    
-    
+        
     \resumeSubheading
       {ANZ - Australia and New Zealand Banking Group Limited}{Nov. 2022 -- Feb. 2023}
       {Engineering Intern}{Wellington, NZ}
       \resumeItemListStart
         \resumeItem{Designed and Engineered a internal Spring Boot service that assists co-workers and/or managers in creating coffee catch up meetings to assist team building using HTML+JS+CSS as the front-end and Java Spring Boot using an in-memory database as the back-end}
       \resumeItemListEnd
+    \resumeSubHeadingListEnd      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+        {\textbf{WhatsInTheFridge{\vspace{5pt}}} $|$ \emph{Python, Pandas, BeautifulSoup4, requests}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a robots.txt respecting web-scraper script for allrecipes.com}
+            \resumeItem{Used Python libraries 'requests' and 'beautifulsoup4' for scraping ingredients}
+            \resumeItem{Managed storage and persistence of recipes and their ingredients using Pandas}
+          \resumeItemListEnd
+        {\textbf{node-integration-engineer-technical-exam} $|$ \emph{NodeJs, Fastify, lowdb, chai, mocha}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a REST server using Fastify}
+            \resumeItem{LowDB was used to maintain an in-memory database and write to disk}
+            \resumeItem{Fastify used schema validation and sanitation for incoming requests}
+          \resumeItemListEnd
+        {\textbf{Dictionary-To-JSON-parser} $|$ \emph{Core GoLang, Go}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a simple Go script to parse the contents of Websters dictionary to JSON format}
+          \resumeItemListEnd
     \resumeSubHeadingListEnd
+
+
 
 %
 %-----------PROGRAMMING SKILLS-----------
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Java, Python, SQL (Postgres), HTML/CSS, Shell script} \\
-     \textbf{Frameworks}{: Spring Boot, JUnit, Kafka} \\
-     \textbf{Developer Tools}{: Git, Docker, VS Code, IntelliJ, Maven, Vim, Linux, Swagger, OpenShift, Jenkins} 
+     \textbf{Languages}{: Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R} \\
+     \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
+     \textbf{Developer Tools}{: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
+     \textbf{Libraries}{: pandas, NumPy, Matplotlib}
     }}
  \end{itemize}
 
 
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Victoria University of Wellington}{Wellington, NZ}
+      {Bachelor of Science in Computer Science}{Sep. 2023}
+      
+  \resumeSubHeadingListEnd
+
 %-------------------------------------------
 \end{document}
+
