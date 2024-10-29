@@ -117,31 +117,45 @@
     \href{https://linkedin.com/in/tgnb}{\underline{linkedin.com/in/tgnb}} $|$
     \href{https://github.com/lil-snorts}{\underline{github.com}}
 \end{center}
-
+Proven ability to deliver high-quality software and build robust applications, even amid shifting business priorities, by leveraging clear communication, adaptive development practices, and a focus on continuous improvement.
 
 
 %-----------EXPERIENCE-----------
 \section{Experience}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {ANZ - Australia and New Zealand Banking Group Limited}{Mar. 2023 -- Present}
+      {ANZ - Australia and New Zealand Banking Group Limited}{Nov. 2022 -- Present}
       {Software Engineer}{Wellington, NZ}
       \resumeItemListStart
-        \resumeItem{Developed Java Spring Boot APIs in a micro service architecture}
-        \resumeItem{Implemented Kafka, reducing customer submission times and increasing service reliability, reducing manual remediation tasks by 99 percent}
-        \resumeItem{Increased customer experience by setting up automated requests customer support on service failures}
+\resumeItem{Built and maintained Java Spring Boot APIs within a microservices architecture to optimize modularity and scalability}
+\resumeItem{Implemented Kafka for asynchronous data processing, reducing customer submission times and increasing service reliability by 95\%}
+\resumeItem{Automated support request creation to streamline the customer service process and enhance user experience}
         \resumeItem{Verified customer eligibility for endpoint access by validating their details against business rules}
-        \resumeItem{Deployed docker images to OpenShift}
-        \resumeItem{Manage deployments using Jenkins}
-    \resumeItemListEnd
-        
-    \resumeSubheading
-      {ANZ - Australia and New Zealand Banking Group Limited}{Nov. 2022 -- Feb. 2023}
-      {Engineering Intern}{Wellington, NZ}
-      \resumeItemListStart
-        \resumeItem{Designed and Engineered a internal Spring Boot service that assists co-workers and/or managers in creating coffee catch up meetings to assist team building using HTML with JavaScript as the front-end and Java Spring Boot with an in-memory database as the back-end}
-      \resumeItemListEnd
-    \resumeSubHeadingListEnd      
+        \resumeItem{Deployed Docker images to OpenShift and managed Jenkins pipelines for streamlined CI/CD processes }
+        \resumeItem{Practiced Agile development methodologies as part of a Scrum team}
+        \resumeItem{Effectively diagnosed system faults in production}
+        \resumeItem{Gave internal presentations of SaaS technologies to business and engineers}
+    \resumeItemListEnd      
+    \resumeItemListStart
+    \resumeItem{Spearheaded the transition from synchronous calls to an EDA using Apache Kafka, enhancing backend performance and client satisfaction.}
+    \resumeItem{Developed an Investment Accounts Kafka Consumer to maintain request context across Kafka flows.}
+    \resumeItem{Implemented comprehensive integration testing protocols to mitigate risks associated with event consumption failures in Kafka.}
+    \resumeItem{Designed and implemented an interceptor bean for Kafka consumers to ensure event traceability and facilitate manual remediation processes.}
+    \resumeItem{Led discussions with stakeholders to clarify business rules and requirements for the KiwiSaver Government Contributions feature.}
+    \resumeItem{Created API contracts aligning backend capabilities with microservices architecture, ensuring efficient customer request handling.}
+    \resumeItem{Identified limitations of current canary deployment patterns for Kafka, proposing a more effective strategy to reduce risk during software updates.}
+    \resumeItem{Advocated for necessary changes in response body structure to prevent service failures, enhancing the overall user experience.}
+    \resumeItem{Pioneered the migration to HELM chart configurations, simplifying infrastructure management and onboarding processes.}
+    \resumeItem{Implemented a web hook for deployment tracking, recommending split responsibilities to enhance security and deployment readiness.}
+    \resumeItem{Introduced dynamic API contract cloning to improve code consistency and facilitate accurate service documentation.}
+    \resumeItem{Advocated for and implemented the use of builders for test objects, streamlining test creation and standardization.}
+    \resumeItem{Collaborated with Product Owner to optimize sprint planning, removing blockers and enabling parallel story development.}
+    \resumeItem{Developed and utilized a Splunk dashboard to monitor the Join KiwiSaver feature release, promptly identifying and resolving issues.}
+    \resumeItem{Reduced unnecessary debug logging, significantly decreasing log storage costs and improving query performance in Splunk.}
+    \resumeItem{Conducted workshops to enhance Splunk proficiency among engineers, showcasing effective usage and analytics capabilities.}
+    \resumeItem{Collaborated with API maintainers to gather documentation for legacy systems, ensuring seamless customer data access.}
+    \resumeItem{Partnered with architects to design a scalable microservices solution for the Government Contributions feature, aligning with organizational standards.}
+\resumeItemListEnd
 % -----------Multiple Positions Heading-----------
 %    \resumeSubSubheading
 %     {Software Engineer I}{Oct 2014 - Sep 2016}
@@ -159,15 +173,17 @@
       \resumeProjectHeading
         {\textbf{WhatsInTheFridge{\vspace{5pt}}} $|$ \emph{Python, Pandas, BeautifulSoup4, requests}}{}
           \resumeItemListStart
-            \resumeItem{Developed a robots.txt respecting web-scraper script for allrecipes.com}
+          \resumeItem{WhatsInTheFridge is a web scraping tool designed to suggest recipes based on available ingredients, offering a simple way to minimize food waste}
+            \resumeItem{Utilized Python's `requests` and `BeautifulSoup4` libraries for ingredient scraping; stored recipe data using `Pandas` for efficient retrieval}
+            \resumeItem{A robots.txt respecting web-scraper script for allrecipes.com}
+            \resumeItem{Stores recipes for easy indexing against ingredients the user might have}
             \resumeItem{Used Python libraries 'requests' and 'beautifulsoup4' for scraping ingredients}
             \resumeItem{Managed storage and persistence of recipes and their ingredients using Pandas}
           \resumeItemListEnd
-        {\textbf{node-integration-engineer-technical-exam} $|$ \emph{NodeJs, Fastify, lowdb, chai, mocha}}{}
+        {\textbf{Fasify-REST-template} $|$ \emph{NodeJs, Fastify, lowdb, chai, mocha}}{}
           \resumeItemListStart
-            \resumeItem{Developed a REST server using Fastify}
+            \resumeItem{Developed a REST server using Fastify, complete with endpoints, schema validation and Error handling}
             \resumeItem{LowDB was used to maintain an in-memory database and write to disk}
-            \resumeItem{Fastify used schema validation and sanitation for incoming requests}
           \resumeItemListEnd
         {\textbf{Dictionary-To-JSON-parser} $|$ \emph{Core GoLang, Go}}{}
           \resumeItemListStart
@@ -182,10 +198,10 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Java, Python, SQL (Postgres), HTML/CSS, Shell script, GoLang} \\
-     \textbf{Frameworks}{: Spring Boot, JUnit, Kafka} \\
-     \textbf{Developer Tools}{: Git, Docker, VS Code, IntelliJ, Maven, Vim, Linux, Swagger, OpenShift, Jenkins} \\
-     \textbf{Libraries}{: pandas, Apache Common Utils, BeautifulSoup, LowDB}
+     \textbf{Languages}{: Java, GoLang, Python, SQL (Postgres), HTML/CSS, Shell Scripting} \\
+     \textbf{Frameworks}{: Spring Boot, JUnit, Kafka, REST API} \\
+     \textbf{Developer Tools}{: Git, Docker, VS Code, IntelliJ, Maven, Vim, Linux, Swagger, OpenShift, Jenkins, CI/CD pipelines, Scalable Systems, Code Generation} \\
+     \textbf{Libraries}{: Pandas, BeautifulSoup, LowDB, }
     }}
  \end{itemize}
 
